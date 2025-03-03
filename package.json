@@ -5,13 +5,28 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "metro": "react-native start --reset-cache",
+    "pod": "cd ios && pod install",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "i": "yarn install && cd ios && pod deintegrate && pod install && cd .. && yarn start",
+    "clean": "cd android && ./gradlew clean && cd ..",
+    "debug": "react-native start --experimental-debugger",
+    "apk": "cd android && ./gradlew assembleRelease",
+    "open": "open android/app/build/outputs/apk/release/"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-native-community/progress-bar-android": "^1.0.5",
+    "@react-navigation/native": "^7.0.15",
+    "@react-navigation/stack": "^7.1.2",
     "react": "19.0.0",
-    "react-native": "0.78.0"
+    "react-native": "0.78.0",
+    "react-native-gesture-handler": "^2.24.0",
+    "react-native-safe-area-context": "^5.2.0",
+    "react-native-screens": "^4.9.1",
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
