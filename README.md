@@ -2,9 +2,9 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Screen Shots
 
-![My Image](https://github.com/buddiakki/TimerApp/tree/main/src/screenshot/Screenshot_1741000206.png)
+![My Image](https://github.com/buddiakki/TimerApp/blob/main/src/screenshot/Screenshot_1741000206.png)
 
-![My Image](https://github.com/buddiakki/TimerApp/tree/main/src/screenshot/Screenshot_1741000320.png)
+![My Image](https://github.com/buddiakki/TimerApp/blob/main/src/screenshot/Screenshot_1741000320.png)
 
 # Getting Started
 
